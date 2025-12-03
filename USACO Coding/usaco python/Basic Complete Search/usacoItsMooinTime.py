@@ -1,3 +1,6 @@
+#https://usaco.org/index.php?page=viewproblem2&cpid=1445
+#needs
+
 N = 3
 F = 1
 S = "ooo"

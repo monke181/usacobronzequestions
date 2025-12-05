@@ -1,3 +1,5 @@
+#https://usaco.org/index.php?page=viewproblem2&cpid=784
+
 n = 3
 lifeguards = [
     [5, 9],

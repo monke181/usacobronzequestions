@@ -8,15 +8,18 @@ with open('usaco python/xInput/ccheck.in') as read:
     cowOrder = [int(item) for item in list1]
     vetOrder = [int(item) for item in list2]
 totalCowChecked = 0
-        
+#reorder function
 def reorder(order, l, r):
     order[l], order[r] = order[r], order[l]
     return order
-
+#check for initial flag
+for i in range(len(cowOrder)):
+    if cowOrder[i] == vetOrder[i]:
+        totalCowChecked += 1
+        
 for i in range(N):
     for j in range(N):
-        if i == j:
-            continue
+
         reorder(cowOrder, i, j)
         count = 0
         if cowOrder[i] == vetOrder[i]:

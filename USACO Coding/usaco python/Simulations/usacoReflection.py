@@ -1,7 +1,7 @@
 #https://usaco.org/index.php?page=viewproblem2&cpid=1491
 
 
-with open('usaco python/reflection.in') as read:
+with open('usaco python/xInput/reflection.in') as read:
     line = read.readline()
     N, U = line.split()
     N = int(N)

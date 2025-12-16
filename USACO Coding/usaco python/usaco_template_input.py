@@ -8,3 +8,7 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+    
+import sys
+with sys.stdin as read:
+    line = read.readline().split()    

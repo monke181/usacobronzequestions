@@ -1,3 +1,4 @@
+#https://usaco.org/index.php?page=viewproblem2&cpid=1301
 with open('usaco python/xInput/mooloo.in', 'r') as read:
     line = read.readline().split()
     N = int(line[0])
@@ -9,4 +10,4 @@ cost = K + 1
 for i in range(1, N):
     gap = n_days[i] - n_days[i-1]
     cost = cost + min(gap, K+1)
-print(cost)
+print(cost, file=open('mooloo.out', 'w'))

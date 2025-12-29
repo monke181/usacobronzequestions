@@ -12,3 +12,5 @@ if __name__ == "__main__":
 import sys
 with sys.stdin as read:
     line = read.readline().split()    
+    
+x = [int(item) for item in x]

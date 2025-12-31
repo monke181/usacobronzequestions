@@ -25,6 +25,7 @@
 # for i in X:
 #     print(calculate_min_time(K, i))
 
+#https://usaco.org/index.php?page=viewproblem2&cpid=989
 with open('usaco python/xInput/race.in', 'r') as read:
     line = read.readline().split()
     K = int(line[0])

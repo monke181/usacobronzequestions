@@ -1,11 +1,11 @@
 with open('usaco python/xInput/cowsignal.in', 'r') as read:
-    M, N, K = map(int, read.readline().split())
+    N, M, K = map(int, read.readline().split())  # N = rows, M = cols
 
     original_signal = []
-
     for _ in range(N):
-        line = read.readline().strip() 
+        line = read.readline().strip()
         original_signal.append(line)
+
 with open('cowsignal.out', 'w') as out:
     for row in original_signal:
         scaled_row = ""

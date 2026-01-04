@@ -1,3 +1,5 @@
+#https://usaco.org/index.php?page=viewproblem2&cpid=917
+
 with open('usaco python/xInput/measuretraffic.in', 'r') as read:
     N = int(read.readline().strip())
     
